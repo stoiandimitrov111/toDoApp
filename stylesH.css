@@ -1,0 +1,122 @@
+html {
+    background: black;
+}
+
+body {
+    text-align: center;
+    font-family: 'Titan One', cursive;
+}
+
+.parent {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#to-do-container {
+    width: 600px;
+    align-self: left;
+    border: 2px black;
+
+}
+
+#ex-do-container {
+    width: 600px;
+    align-self: right;
+    border: 2px black;
+
+}
+
+.input0 {
+    font-size: 24px;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#add-to-do-btn {
+    font-size: 16px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(159, 159, 159);
+}
+
+#local-to-do-btn {
+    font-size: 16px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(159, 159, 159);
+}
+
+
+
+#remote-add-to-do-btn {
+    font-size: 16px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(159, 159, 159);
+}
+
+
+.dlt-btn {
+    margin: auto 10px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(159, 159, 159);
+}
+
+.to-do-instance {
+    display: flex;
+    justify-content: left;
+    background-color: beige;
+    color: grey;
+    border: 1px solid black;
+    margin: 20px 10px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.to-do-instance:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    cursor: pointer;
+}
+
+p {
+    word-wrap: break-word;
+    max-width: 400px;
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    padding: 40px;
+}
+
+h4 {
+    margin: 40px;
+}
+
+h1 {
+    font-weight: 400;
+    background-color: bisque;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 2px 5px;
+    margin-left: 20px;
+}
